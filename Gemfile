@@ -23,6 +23,15 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Use devise for user authentication
 gem 'devise'
+gem "active_model_serializers", "~> 0.8.0"
+# Use Json Web Token (JWT) for token based authentication
+gem 'jwt'
+gem 'bcrypt', '~> 3.1.7'
+gem 'rack-cors'
+
+
+# Use ActiveModel has_secure_password
+gem 'cancancan'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
